@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ES6",              // compile to ES6 JavaScript
     "module": "commonjs",         // module system for Node.js
-    "rootDir": "./src",           // TypeScript source files go here
-    "outDir": "./dist",           // compiled JavaScript goes here
+    "rootDir": "basics learning/src",           // TypeScript source files go here
+    "outDir": "basics learning/dist",           // compiled JavaScript goes here
     "strict": true,               // enable all strict type checks
     "noImplicitAny": true,        // error if type can't be inferred
     "noUnusedLocals": false,       // allow unused variables (learning mode)
@@ -11,6 +11,6 @@
     "sourceMap": true,            // helps with debugging
     "skipLibCheck": true          // skip type checking of node_modules
   },
-  "include": ["src/**/*"],        // only compile files inside src/
+  "include": ["basics learning/src/**/*"],        // only compile files inside src/
   "exclude": ["node_modules"]     // ignore node_modules
 }
