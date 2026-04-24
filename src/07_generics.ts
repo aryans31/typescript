@@ -1,10 +1,12 @@
+export {};
+
 // ==========================================
 // TOPIC 7: Generics
 // ==========================================
 
 // --- THE PROBLEM WITHOUT GENERICS ---
 // You'd need a separate function for each type, or use `any` (unsafe)
-function getFirstAny(arr: any[]): any {
+function _getFirstAny(arr: any[]): any {
   return arr[0];
 }
 
